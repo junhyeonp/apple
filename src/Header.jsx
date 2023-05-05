@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const GlobalNav = styled.div`
   width: 100%;
@@ -190,7 +190,10 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#" className="globalnav-link">
+            <a
+              href="https://www.apple.com/kr/search"
+              className="globalnav-link"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="15px"
@@ -202,7 +205,10 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#" className="globalnav-link">
+            <a
+              href="https://www.apple.com/kr/shop/bag"
+              className="globalnav-link"
+            >
               <svg
                 height="44"
                 viewBox="0 0 14 44"
